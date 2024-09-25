@@ -1,14 +1,18 @@
 import { HamburguerMenu } from './HamburguerMenu'
-//import { NavMenu } from './NavMenu'
+import { NavMenu } from './NavMenu'
 export const Header = () => {
     return (
         <>
             <header className="Header">
 
                 <HamburguerMenu></HamburguerMenu>
-                {/* <NavMenu></NavMenu> */}
+                <NavMenu></NavMenu>
 
             </header>
         </>
     )
 }
+
+<div className="padre">
+    <div className="hijo"></div>
+</div>

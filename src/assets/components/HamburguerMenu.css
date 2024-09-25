@@ -1,11 +1,12 @@
 .button {
   display: block;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   max-width: 100%;
   max-height: 100%;
   padding: 0;
-  margin: 2rem 0 0 2rem;
+  top: 2rem;
+  left: 2rem;
   border: 0;
   width: 5rem;
   height: 5rem;
@@ -14,9 +15,9 @@
 }
 
 
-path {
+.Menu-svg path {
   fill: none;
-  stroke: #ffffff;
+  stroke: #F9F3E3;
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
