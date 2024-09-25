@@ -1,77 +1,68 @@
+.button {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0;
+  margin: 2rem 0 0 2rem;
+  border: 0;
+  width: 5rem;
+  height: 5rem;
+  background-color: #ffffff00;
+  z-index: 3;
+}
 
-  .button {
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    padding: 0;
-    margin: 0;
-    border: 0;
 
-    background-color: #ffffff00;
-    z-index: 2;
+path {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  --length: 24;
+  --offset: -38;
+  stroke-dasharray: var(--length) var(--total-length);
+  stroke-dashoffset: var(--offset);
+  transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transform: scale(1.65);
+  transform-origin: center;
+}
+
+.open {
+  .line--1,
+  .line--3 {
+    --length: 22.627416998;
+    --offset: -94.1149185097;
   }
-  
-  @media (min-aspect-ratio: 1/1) {
-    .button {
-      width: 50vh;
-      height: 50vh;
-
-    }
+  .line--2 {
+    --length: 0;
+    --offset: -50;
   }
+}
 
-  
-  path {
-    fill: none;
-    stroke: #ffffff;
-    stroke-width: 3;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    --length: 24;
-    --offset: -38;
-    stroke-dasharray: var(--length) var(--total-length);
-    stroke-dashoffset: var(--offset);
-    transition: all .8s cubic-bezier(.645, .045, .355, 1);
-  }
-  
-  .open{
-    .line--1,
-    .line--3 {
-      --length: 22.627416998;
-      --offset: -94.1149185097;
-    }
-    .line--2 {
-      --length: 0;
-      --offset: -50;
-    }
+circle {
+  fill: rgba(30, 30, 30);
+  opacity: 0;
+  transition: all 0.3s;
+  transform: scale(1.65);
+  transform-origin: center;
+}
 
-  }
+.button:hover circle {
+  opacity: 1;
+  transition: all 0.3s;
+}
 
-
-  circle {
-    fill: rgba(30, 30, 30);
-    opacity: 0;
-    transition: all .3s
+.menu {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .line--1,
+  .line--3 {
+    --total-length: 126.64183044433594;
   }
-  
-  .button:hover circle {
-    opacity: 1;
-    transition: all .3s
+  .line--2 {
+    --total-length: 70;
   }
- 
-  .menu {
-position: relative;
-    width: 100%;
-    height: 100%;
-    .line--1,
-    .line--3 {
-      --total-length: 126.64183044433594;
-    }
-    .line--2 {
-      --total-length: 70;
-    }
-
-  }
-  
-  
+}

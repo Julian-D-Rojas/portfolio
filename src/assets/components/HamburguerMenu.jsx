@@ -15,8 +15,8 @@ export const HamburguerMenu = () => {
     if ($svgRef.current) {
       if (isOpen) {
         $svgRef.current.classList.add("open")
-      } 
-      else{
+      }
+      else {
         $svgRef.current.classList.remove("open")
       }
     }
