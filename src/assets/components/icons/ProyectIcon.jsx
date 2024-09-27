@@ -1,0 +1,3 @@
+export function ProyectIcon(props) {
+	return (<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48" {...props}><g fill="none"><rect width={40} height={32} x={4} y={8} stroke="currentColor" strokeLinejoin="round" strokeWidth={4} rx={3}></rect><path stroke="currentColor" strokeWidth={4} d="M4 11a3 3 0 0 1 3-3h34a3 3 0 0 1 3 3v9H4z"></path><circle r={2} fill="currentColor" transform="matrix(0 -1 -1 0 10 14)"></circle><circle r={2} fill="currentColor" transform="matrix(0 -1 -1 0 16 14)"></circle></g></svg>);
+}
