@@ -1,5 +1,5 @@
 body{
-    background-image: url(./assets/img/backgroundTemp.jpg);
+    background-image: url(./assets/img/background.jpg);
     background-repeat: repeat;
 }
 body::before {
@@ -9,5 +9,5 @@ body::before {
     left: 0;
     width: 120vw;
     height: 120vh;
-    background-color: rgba(30, 30, 30, 0.6); 
+    /* background-color: rgba(30, 30, 30, 0.6);  */
     z-index: 1;}
