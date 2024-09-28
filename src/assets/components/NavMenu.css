@@ -1,19 +1,37 @@
 .Nav {
-  z-index: 2;
-  color: #F9F3E3;
-  background-color:  rgba(30, 30, 30, 0.7);;
   position: fixed;
-padding-top: 9rem;
-padding-left:2rem;
-padding-right: 2rem;
+  padding-top: 2rem;
+  z-index: 2;
+  height: calc(100vh - 2rem);
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+color: #F9F3E3;
+backdrop-filter: blur(2px);
+  background-color:  rgba(30, 30, 30, 0.7);;
 }
-.Nav-li{
-  margin-bottom: 1rem;
+.Nav-div--h1{
+  padding: 0 2rem 2rem 5rem;
+}
+
+.Nav-a{
   display: flex;
   align-items: center;
+  padding-left: 1rem;
 }
+
+.Nav-div--social{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
 .Nav-div-icon{
-  width: 5rem;
+  width: 5em;
 }
 .Nav-div-icon svg{
   padding: 1rem;

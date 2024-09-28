@@ -7,7 +7,5 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    width: 120vw;
-    height: 120vh;
     /* background-color: rgba(30, 30, 30, 0.6);  */
     z-index: 1;}
