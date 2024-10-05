@@ -30,7 +30,7 @@
   transform-origin: center;
 }
 
-.open {
+.hamburguer--open {
   .line--1,
   .line--3 {
     --length: 22.627416998;

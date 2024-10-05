@@ -1,23 +1,23 @@
-import { useState, useRef, useEffect } from 'react'
+import { useRef, useEffect } from 'react'
 import './HamburguerMenu.css'
-//import  hamburguerMenuIcon from '../icons/hamburguerMenu.svg'
-
-
+import { useMenuContext } from '../hooks/useMenuContext'
 export const HamburguerMenu = () => {
-  const [isOpen, setIsOpen] = useState(false)
+
+
+  const {isOpen, handleMenu} = useMenuContext()
   const $svgRef = useRef(null)
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
+    handleMenu()
   }
 
   useEffect(() => {
     if ($svgRef.current) {
       if (isOpen) {
-        $svgRef.current.classList.add("open")
+        $svgRef.current.classList.add("hamburguer--open")
       }
       else {
-        $svgRef.current.classList.remove("open")
+        $svgRef.current.classList.remove("hamburguer--open")
       }
     }
   }, [isOpen])

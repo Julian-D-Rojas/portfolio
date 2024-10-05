@@ -3,13 +3,17 @@ import { ProyectIcon } from './icons/ProyectIcon'
 import { ContactIcon } from './icons/ContactIcon'
 import { GithubIcon } from './icons/GithubIcon'
 import{LinkedinIcon} from './icons/LinkedinIcon'
+import { useMenuContext } from '../hooks/useMenuContext'
 
 export const NavMenu = () => {
   let proyects = 'Proyectos'
   let contact = 'Contacto'
+
+  const {isOpen} = useMenuContext()
+
   return (
     <>
-      <nav className="Nav">
+      <nav className={`Nav ${isOpen? 'Nav--open':''}`}>
         <div className="Nav-div--container">
 
         <div className="Nav-div--h1">
