@@ -1,0 +1,70 @@
+.div-Contact--container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.div-Contact {
+  background-color: rgba(244, 240, 228);
+  max-width: 31rem;
+}
+.form-Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+input {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  color: var(--text-color);
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 0.5rem;
+}
+.button-Contact {
+  color: rgba(30, 30, 30);
+  background-color: rgba(244, 240, 228);
+  font-size: 1.05rem;
+  font-family: Poppins-SemiBold;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  border: 0.125rem solid rgba(30, 30, 30);
+  cursor: pointer;
+  margin: 0.3rem;
+}
+
+.button-Contact:hover {
+  background-color: rgba(30, 30, 30);
+  color: rgba(244, 240, 228);
+  transition: 0.2s;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1.2rem;
+  display: inline-grid;
+}
+.loader:before,
+.loader:after {
+  content: "Loading...";
+  grid-area: 1/1;
+  -webkit-mask: linear-gradient(90deg, #000 50%, #0000 0) 0 50%/2ch 100%;
+  animation: l11 1s infinite cubic-bezier(0.5, 220, 0.5, -220);
+}
+.loader:after {
+  -webkit-mask-position: 1ch 50%;
+  --s: -1;
+}
+@keyframes l11 {
+  100% {
+    transform: translateY(calc(var(--s, 1) * 0.1%));
+  }
+}

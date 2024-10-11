@@ -33,7 +33,9 @@ lectura.
 Respeto, tolerancia y resiliencia ante las dificultades.
     </li>
 </ul>
+<a href="#contact">
         <button className="button-Porfile">Contacto</button>
+</a>
     </div>
     </>
   )

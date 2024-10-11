@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem 2rem 2rem 2rem;
+  min-height: calc(100vh - 4rem);
 }
 .h2-Porfile {
   font-family: Caveat;
@@ -12,7 +13,7 @@
   font-weight: 500;
 }
 .figure-Porfile {
-  padding: 1rem 0 1rem 0;
+  padding-bottom: 1rem ;
 }
 .h3-Porfile {
   font-family: Poppins-SemiBold;
@@ -31,12 +32,13 @@
 
   color: rgba(30, 30, 30);
 background-color: rgba(244, 240, 228) ;
-  font-size: 1.1rem;
+font-size: 1.05rem;
   font-family: Poppins-SemiBold;
   padding: 1rem;
   border-radius: 0.5rem;
   transition: 0.2s;
   border: 0.125rem solid  rgba(30, 30, 30);
+  cursor: pointer;
 }
 
 .button-Porfile:hover {
