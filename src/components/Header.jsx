@@ -9,7 +9,6 @@ export const Header = () => {
                 <MenuProvider>
                     <HamburguerMenu></HamburguerMenu>
                     <NavMenu></NavMenu>
-
                 </MenuProvider>
 
             </header>

@@ -1,0 +1,41 @@
+.div-Porfile--container {
+  background-color: rgba(244, 240, 228);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.h2-Porfile {
+  font-family: Caveat;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.figure-Porfile {
+  padding: 1rem 0 1rem 0;
+}
+.h3-Porfile {
+  font-family: Poppins-SemiBold;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.p-Porfile {
+  padding: 1rem 0 1rem 0;
+}
+.img-Porfile {
+  border-radius: 100%;
+  max-width: 12rem;
+}
+.button-Porfile {
+  background-color: rgba(30, 30, 30);
+  color: rgba(244, 240, 228);
+  font-size: 1.1rem;
+  font-family: Poppins-SemiBold;
+  padding: 1rem;
+  border-radius: 10%;
+}
+
+.li-Porfile {
+  list-style: inside;
+  padding-bottom: 1rem;
+}

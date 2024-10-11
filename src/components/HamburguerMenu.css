@@ -17,7 +17,7 @@
 
 .Menu-svg path {
   fill: none;
-  stroke: #F9F3E3;
+  stroke: rgba(30, 30, 30);
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -25,9 +25,14 @@
   --offset: -38;
   stroke-dasharray: var(--length) var(--total-length);
   stroke-dashoffset: var(--offset);
-  transition: all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
   transform: scale(1.65);
   transform-origin: center;
+}
+.Menu-svg:hover path{
+  stroke: rgba(244, 240, 228);
+  /* transition: 0.2s; */
+  
 }
 
 .hamburguer--open {
@@ -40,6 +45,10 @@
     --length: 0;
     --offset: -50;
   }
+  path{
+    stroke: rgba(244, 240, 228);
+  }
+
 }
 
 circle {

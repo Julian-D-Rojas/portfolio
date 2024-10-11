@@ -1,5 +1,6 @@
 import './App.css'
 import { Header } from './components/Header'
+import { Porfile } from './components/Porfile'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
      <div className="App">
     <Header></Header>
+    <Porfile></Porfile>
      </div>
     </>
   )

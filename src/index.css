@@ -90,8 +90,8 @@ video {
   src: url(./assets/fonts/Montserrat-Regular.ttf);
 }
 @font-face {
-  font-family: Poppins;
-  src: url(./assets/fonts/Poppins-Regular.ttf);
+  font-family: Poppins-SemiBold;
+  src: url(./assets/fonts/Poppins/Poppins-SemiBold.ttf);
 }
 
 @font-face {
@@ -109,8 +109,10 @@ h1 {
   font-weight: 500;
 }
 p {
-  font-size: 17rem;
+  font-family:  Montserrat Regular;
+  font-size: 1rem;
   font-weight: 500;
+  text-align: justify;
 }
 
 html {
@@ -165,5 +167,5 @@ a {
 }
 
 a:hover {
-  color: rgba(255, 255, 255, 0.584);
+  color: #EDDEBB;
 }
