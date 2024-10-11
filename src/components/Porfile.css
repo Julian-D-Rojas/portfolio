@@ -21,21 +21,32 @@
 }
 .p-Porfile {
   padding: 1rem 0 1rem 0;
+  max-width: 31rem;
 }
 .img-Porfile {
   border-radius: 100%;
   max-width: 12rem;
 }
 .button-Porfile {
-  background-color: rgba(30, 30, 30);
-  color: rgba(244, 240, 228);
+
+  color: rgba(30, 30, 30);
+background-color: rgba(244, 240, 228) ;
   font-size: 1.1rem;
   font-family: Poppins-SemiBold;
   padding: 1rem;
-  border-radius: 10%;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+  border: 0.125rem solid  rgba(30, 30, 30);
 }
 
+.button-Porfile:hover {
+    background-color: rgba(30, 30, 30);
+    color: rgba(244, 240, 228);
+transition: 0.2s;
+
+}
 .li-Porfile {
   list-style: inside;
   padding-bottom: 1rem;
+  max-width: 31rem;
 }
