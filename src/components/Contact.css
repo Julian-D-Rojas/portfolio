@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   padding: 2rem;
+  background-color: #4A90E2
+
 }
 .div-Contact {
   background-color: rgba(244, 240, 228);
@@ -13,6 +15,12 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
+}
+
+.div-Porfile-infoButton{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30rem;
 }
 input {
   margin: 0.3rem;
@@ -26,12 +34,32 @@ input {
   border-color: gray;
   border-radius: 0.5rem;
 }
+
+#message{
+  margin: 0.3rem;
+  padding: 0.5rem;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  color: var(--text-color);
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 0.5rem;
+  height: 5rem;
+}
+textarea
+.message-Contact{
+  height: 4rem;
+  resize: none;
+}
 .button-Contact {
-  color: rgba(30, 30, 30);
-  background-color: rgba(244, 240, 228);
+  background-color: rgba(30, 30, 30);
+  color: rgba(244, 240, 228);
+
   font-size: 1.05rem;
   font-family: Poppins-SemiBold;
-  padding: 1rem;
+  padding: .5rem 1rem;
   border-radius: 0.5rem;
   transition: 0.2s;
   border: 0.125rem solid rgba(30, 30, 30);
@@ -40,8 +68,9 @@ input {
 }
 
 .button-Contact:hover {
-  background-color: rgba(30, 30, 30);
-  color: rgba(244, 240, 228);
+
+  color: rgba(30, 30, 30);
+  background-color: rgba(244, 240, 228);
   transition: 0.2s;
 }
 

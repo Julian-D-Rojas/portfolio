@@ -1,6 +1,7 @@
 body{
-    background-image: url(./assets/img/background.jpg);
-    background-repeat: repeat;
+    background-color: rgb(244, 240, 228);
+    /* background-image: url(./assets/img/background.jpg);
+    background-repeat: repeat; */
 }
 body::before {
     content: '';
