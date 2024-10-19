@@ -1,3 +1,10 @@
+:root {
+  --primary:rgb(244, 240, 228);
+  --secondary:rgba(30, 30, 30);
+  --green:#6BBF59;
+  --blue:#4A90E2;
+  }
+
 .button {
   display: block;
   cursor: pointer;
@@ -17,7 +24,7 @@
 
 .Menu-svg path {
   fill: none;
-  stroke: rgba(30, 30, 30);
+  stroke:var(--secondary);
   stroke-width: 3;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -30,8 +37,7 @@
   transform-origin: center;
 }
 .Menu-svg:hover path{
-  stroke: rgba(244, 240, 228);
-  /* transition: 0.2s; */
+  stroke:var(--primary);
   
 }
 
@@ -46,13 +52,12 @@
     --offset: -50;
   }
   path{
-    stroke: rgba(244, 240, 228);
+    stroke: var(--primary);
   }
-
 }
 
 circle {
-  fill: rgba(30, 30, 30);
+  fill: var(--secondary);
   opacity: 0;
   transition: all 0.3s;
   transform: scale(1.65);

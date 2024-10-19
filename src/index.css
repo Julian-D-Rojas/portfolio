@@ -166,7 +166,7 @@ a {
   font-weight: 500;
 }
 
-a:hover {
-  color: #EDDEBB;
+.a:hover {
+  color: rgba(244, 240, 228, 0.491) ;
 }
 

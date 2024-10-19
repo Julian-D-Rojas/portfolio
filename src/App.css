@@ -1,12 +1,18 @@
+:root {
+--primary:rgb(244, 240, 228);
+--secondary:rgba(30, 30, 30);
+--green:#6BBF59;
+--blue:#4A90E2;
+}
 body{
-    background-color: rgb(244, 240, 228);
+    background-color: var(--primary);
     /* background-image: url(./assets/img/background.jpg);
     background-repeat: repeat; */
 }
-body::before {
+/* body::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    /* background-color: rgba(30, 30, 30, 0.6);  */
-    z-index: 1;}
+    background-color: rgb(244, 240, 228);
+    z-index: 1;} */

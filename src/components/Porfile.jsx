@@ -2,11 +2,14 @@ import './Porfile.css'
 import julianImage from '../assets/img/Julian Rojas.jpg'
 import { ContactIcon } from './icons/ContactIcon'
 import {CvIcon} from './icons/CvIcon'
+import { LinkedinIcon } from './icons/LinkedinIcon'
+import { GithubIcon } from './icons/GithubIcon'
+
 export const Porfile = () => {
     return (
         <>
             <div className="div-Porfile--name">
-                <a href="#top"  className="Nav-a">
+                <a href="#top" >
                 <h2 className="h2-Porfile">Julian Rojas</h2> </a>
                 </div>
             <div className="div-Porfile--container">
@@ -47,12 +50,11 @@ export const Porfile = () => {
                     </li>
                 </ul>
 <div className="div-Porfile-infoButton">
-                <a href="#contact">
-                    <button className="button-Porfile greenColorBackgorund"><CvIcon/></button>
-                </a>
-                <a href="#contact">
-                    <button className="button-Porfile blackColorBackgorund"><ContactIcon/></button>
-                </a>
+<a rel="noopener noreferer" href="#" target="_blank" className="a-Porfile--social" title="CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
+          <a rel="noopener noreferer" href="mailto:julian.d.rojas16@gmail.com" target="_blank" className=" a-Porfile--social" title="Contacto"><div className="Porfile-div-icon"><ContactIcon   /></div></a>
+          <a rel="noopener noreferer" href="https://www.linkedin.com/in/julian-david-rojas-gutierrez-b88160235/" target="_blank" className=" a-Porfile--social" title="Linkedin"> <div className="Porfile-div-icon"><LinkedinIcon/></div></a>
+          <a rel="noopener noreferer" href="https://github.com/Julian-D-Rojas/" target="_blank" className="a-Porfile--social"><div className="Porfile-div-icon" title="Github"><GithubIcon /></div></a>
+         
 </div>
                 </div>
                 

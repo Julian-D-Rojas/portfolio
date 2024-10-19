@@ -17,11 +17,7 @@
   padding: 2rem;
 }
 
-.div-Porfile-infoButton{
-  display: flex;
-  justify-content: space-evenly;
-  width: 30rem;
-}
+
 input {
   margin: 0.3rem;
   padding: 0.5rem;

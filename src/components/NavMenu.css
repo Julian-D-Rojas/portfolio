@@ -1,3 +1,10 @@
+:root {
+  --primary:rgb(244, 240, 228);
+  --secondary:rgba(30, 30, 30);
+  --green:#6BBF59;
+  --blue:#4A90E2;
+  }
+
 .Nav {
   position: fixed;
   padding-top: 2rem;
@@ -8,9 +15,9 @@
   justify-content: space-between;
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
-  color: rgba(244, 240, 228);
+  color: var(--primary);
   background-image: url(../assets/img/background.jpg);
-    background-repeat: repeat;
+  background-repeat: repeat;
 
 }
 
@@ -33,13 +40,16 @@
 .Nav-div--social {
   padding: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .Nav-div-icon {
-  width: 5em;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  
 }
 .Nav-div-icon svg {
   padding: 1rem;
-  fill: rgba(244, 240, 228);
+  fill: var(--primary);
 }

@@ -1,5 +1,41 @@
+:root {
+  --primary:rgb(244, 240, 228);
+  --secondary:rgba(30, 30, 30);
+  --green:#6BBF59;
+  --blue:#4A90E2;
+  }
+.circle {
+  fill: var(--secondary);
+  opacity: 0;
+  transition: all 0.3s;
+  transform: scale(1.65);
+  transform-origin: center;
+}
+.Porfile-div-icon {
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+.a-Porfile--social{
+display: flex;
+align-items: center;
+cursor: pointer;
+max-width: 100%;
+max-height: 100%;
+padding: 0;
+width: 4rem;
+height: 4rem;
+}
+.a-Porfile--social:hover{
+  color: var(--primary);
+}
+.a-Porfile--social:hover circle {
+  opacity: 1;
+  transition: all 0.3s;
+}
+
 .div-Porfile--container {
-  
   min-height: calc(100vh - 4rem);
 
 }
@@ -10,8 +46,12 @@
   align-items: center;
   padding: 2rem 2rem 2rem 2rem;
 }
+.div-Porfile-infoButton{
+  display: flex;
+  justify-content: center;
+}
 .img-Porfile--coverImage{
-  width: 100vw;
+  width: calc(100vw - 1.05rem);
   height: 10rem;
 }
 .h2-Porfile {
@@ -34,21 +74,21 @@
   top:-3rem
 }
 .greenColor{
-color:#6BBF59 ;
+color:var(--green);
 
 }
 .blueColor{
-  color: #4A90E2;
+  color: var(--blue);
 }
 .blackColor{
   color:rgba(30, 30, 30);
 }
 .greenColorBackgorund{
-  background-color:#6BBF59 ;
-  border: 0.125rem solid  #6BBF59;
+  background-color:var(--green) ;
+  border: 0.125rem solid  var(--green);
   }
   .greenColorBackgorund:hover{
-    color:#6BBF59 ;
+    color:var(--green) ;
     }
   .blueColorBackgorund{
     background-color: #4A90E2;
@@ -59,12 +99,12 @@ color:#6BBF59 ;
   }
 
   .blackColorBackgorund{
-    background-color:rgba(30, 30, 30);
-    border: 0.125rem solid rgba(30, 30, 30);
+    background-color:var(--secondary);
+    border: 0.125rem solid var(--secondary);
   }
 
   .blackColorBackgorund:hover{
-    color:rgba(30, 30, 30);
+    color:var(--secondary);
   }
 .div-Porfile--name{
   position: sticky;
@@ -72,9 +112,9 @@ color:#6BBF59 ;
   left: 0;
   display: flex;
   justify-content: center;
-  width: 100vw;
+  width: calc(100vw - 1.05rem);
   padding: 2rem 0 2rem 0;
-background-color: rgba(250, 250, 250, 0.627);
+background-color: rgba(244, 240, 228, 0.627);
 backdrop-filter: blur(8px);
 z-index: 3;
 }
@@ -86,20 +126,19 @@ z-index: 3;
 .img-Porfile {
   border-radius: 100%;
   max-width: 6rem;
-  border: solid 4px rgba(30, 30, 30);
+  border: solid 4px var(--secondary);
 }
 .button-Porfile {
-  color: rgba(244, 240, 228) ;
-font-size: 1.05rem;
+  color: var(--primary) ;
   font-family: Poppins-SemiBold;
-  padding: .5rem 1rem;
+  padding: .1rem 1rem;
   border-radius: 0.5rem;
   transition: 0.2s;
   cursor: pointer;
 }
 
 .button-Porfile:hover {
-  background-color: rgba(244, 240, 228) ;
+  background-color: var(--primary) ;
 transition: 0.2s;
 
 }
