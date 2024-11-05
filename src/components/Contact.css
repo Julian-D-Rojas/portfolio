@@ -1,13 +1,22 @@
+:root {
+  --primary:rgb(244, 240, 228);
+  --secondary:rgba(30, 30, 30);
+  --green:#6BBF59;
+  --blue:#4A90E2;
+  }
+
 .div-Contact--container {
   display: flex;
   justify-content: center;
   padding: 2rem;
-  background-color: #4A90E2
+  background-color: #fff;
 
 }
 .div-Contact {
-  background-color: rgba(244, 240, 228);
+  background-color: var(--primary);
   max-width: 31rem;
+  border-radius: 2%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .form-Contact {
   display: flex;
@@ -50,23 +59,23 @@ textarea
   resize: none;
 }
 .button-Contact {
-  background-color: rgba(30, 30, 30);
-  color: rgba(244, 240, 228);
+  background-color:var(--secondary);
+  color: var(--primary);
 
   font-size: 1.05rem;
   font-family: Poppins-SemiBold;
   padding: .5rem 1rem;
   border-radius: 0.5rem;
   transition: 0.2s;
-  border: 0.125rem solid rgba(30, 30, 30);
+  border: 0.125rem solid var(--secondary);
   cursor: pointer;
   margin: 0.3rem;
 }
 
 .button-Contact:hover {
 
-  color: rgba(30, 30, 30);
-  background-color: rgba(244, 240, 228);
+  color: var(--secondary);
+  background-color: var(--primary);
   transition: 0.2s;
 }
 

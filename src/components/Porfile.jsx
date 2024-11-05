@@ -1,5 +1,5 @@
 import './Porfile.css'
-import julianImage from '../assets/img/Julian Rojas.jpg'
+import julianImage from '../assets/img/JulianRw.png'
 import { ContactIcon } from './icons/ContactIcon'
 import {CvIcon} from './icons/CvIcon'
 import { LinkedinIcon } from './icons/LinkedinIcon'
@@ -15,40 +15,14 @@ export const Porfile = () => {
             <div className="div-Porfile--container">
                 <div className="div-Porfile--coverImage">
 
-                    <img src='https://i.pinimg.com/originals/8d/0b/88/8d0b883ff3b1abbf1dc7369f6b895443.gif
-' alt="Julian Rojas" className="img-Porfile--coverImage" />
-                </div>
-              
                 <figure className="figure-Porfile">
                     <img src={julianImage} alt="Julian Rojas" className="img-Porfile" />
                 </figure>
 
                 <div className="div-Porfile--info">
-                <h3 className="h3-Porfile">Desarrollador <span className='greenColor'>Web</span> <span className="blueColor">Frontend</span> </h3>
-                <p className="p-Porfile">Ingeniero en Telecomunicaciones con conocimientos en diseño responsivo de
-                    páginas web con HTML, CSS, SASS , JavaScript y
-                    ReactDOM; API REST, java, manejo de base de datos SQL,
-                    GIT y GitHub, me caracterizo por:</p>
-                <ul className="ul-Porfile">
-                    <li className="li-Porfile">
-                        Creatividad, proactividad, análisis y perseverancia
-                        para cumplir objetivos.
-
-                    </li>
-                    <li className="li-Porfile">
-
-                        Trabajo en equipo.
-                    </li>
-                    <li className="li-Porfile">
-
-                        Facilidad para la escucha, el habla, la escritura y la
-                        lectura.
-                    </li>
-                    <li className="li-Porfile">
-
-                        Respeto, tolerancia y resiliencia ante las dificultades.
-                    </li>
-                </ul>
+                <h3 className="h3-Porfile">Desarrollador <span>Web</span> <span className="blackColor">Frontend</span> </h3>
+                <p className="p-Porfile">Ingeniero en Telecomunicaciones con experiencia en diseño web responsivo (HTML, CSS, SASS, JavaScript, ReactDOM), manejo de APIs REST, Java, bases de datos SQL y control de versiones (GIT/GitHub). Destaco por la creatividad, proactividad y capacidad de análisis. Hábil en la comunicación y trabajo en equipo, con un enfoque en la resiliencia y el respeto.</p>
+    
 <div className="div-Porfile-infoButton">
 <a rel="noopener noreferer" href="#" target="_blank" className="a-Porfile--social" title="CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
           <a rel="noopener noreferer" href="mailto:julian.d.rojas16@gmail.com" target="_blank" className=" a-Porfile--social" title="Contacto"><div className="Porfile-div-icon"><ContactIcon   /></div></a>
@@ -57,7 +31,7 @@ export const Porfile = () => {
          
 </div>
                 </div>
-                
+                </div>
             </div>
         </>
     )
