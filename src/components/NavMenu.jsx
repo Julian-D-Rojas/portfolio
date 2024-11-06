@@ -5,6 +5,8 @@ import { GithubIcon } from './icons/GithubIcon'
 import{LinkedinIcon} from './icons/LinkedinIcon'
 import { useMenuContext } from '../hooks/useMenuContext'
 import { CvIcon } from './icons/CvIcon'
+import { FormIcon } from './icons/FormIcon'
+
 
 export const NavMenu = () => {
   let proyects = 'Proyectos'
@@ -29,7 +31,7 @@ export const NavMenu = () => {
           <a href="#proyects" onClick={handleMenu} className="Nav-a a"><div className="Nav-div-icon"><ProyectIcon/></div>{proyects}</a></li>
           
           <li className="Nav-li">
-          <a href="#contact" onClick={handleMenu} className="Nav-a a"><div className="Nav-div-icon"><ContactIcon/></div>{contact}</a></li>
+          <a href="#contact" onClick={handleMenu} className="Nav-a a"><div className="Nav-div-icon"><FormIcon/></div>{contact}</a></li>
         </ul>
         <div className="Nav-div--social">
           <a onClick={handleMenu} rel="noopener noreferer" href="#" target="_blank" className="a-Porfile--social" title="CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
