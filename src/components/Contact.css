@@ -1,81 +1,85 @@
 :root {
-  --primary:rgb(244, 240, 228);
-  --secondary:rgba(30, 30, 30);
-  --green:#6BBF59;
-  --blue:#4A90E2;
-  }
+  --primary: rgb(244, 240, 228);
+  --secondary: #2c3e50;
+  --green: #6bbf59;
+  --blue: #4a90e2;
+}
 
 .div-Contact--container {
   display: flex;
   justify-content: center;
   padding: 2rem;
   background-color: #fff;
-
 }
 .div-Contact {
-  background-color: var(--primary);
-  max-width: 31rem;
-  border-radius: 2%;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  padding: 1.25rem 2.8rem 2.8rem 2.8rem;
+  border-radius: 2rem;
+  box-shadow: 0px 10px 50px 0px rgba(19, 31, 111, 0.1);
+  width: 100%;
 }
+
+.h3-Contact {
+  font-size: 1.3rem;
+  justify-self: center;
+  padding: 1rem 0.7rem;
+  font-weight: 300;
+  font-family: Poppins-SemiBold;
+  color: var(--secondary);
+}
+
 .form-Contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
-
 
 input {
-  margin: 0.3rem;
-  padding: 0.5rem;
-  display: block;
-  width: 100%;
+  padding: 0.6rem 0.9rem;
+
   font-size: 1rem;
-  color: var(--text-color);
+  color: var(--secondary);
+
+  border-radius: 2rem;
+  background-color: #f7fcff;
   border-style: solid;
-  border-width: 1px;
-  border-color: gray;
-  border-radius: 0.5rem;
+  border-width: 2px;
+  border-color: #e9eef8;
 }
 
-#message{
-  margin: 0.3rem;
-  padding: 0.5rem;
-  display: block;
-  width: 100%;
-  font-size: 1rem;
-  color: var(--text-color);
-  border-style: solid;
-  border-width: 1px;
-  border-color: gray;
-  border-radius: 0.5rem;
-  height: 5rem;
-}
-textarea
-.message-Contact{
-  height: 4rem;
+#message {
+  padding: 0.6rem 0.9rem;
   resize: none;
+  font-size: 1rem;
+  color: var(--secondary);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e9eef8;
+  border-radius: 2rem;
+  height: 8rem;
+  background-color: #f7fcff;
 }
+
 .button-Contact {
-  background-color:var(--secondary);
-  color: var(--primary);
+  background-color: var(--blue);
+  color: #fff;
 
   font-size: 1.05rem;
   font-family: Poppins-SemiBold;
-  padding: .5rem 1rem;
-  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
   transition: 0.2s;
-  border: 0.125rem solid var(--secondary);
+  border: 0.125rem solid var(--blue);
   cursor: pointer;
   margin: 0.3rem;
+  width: fit-content;
+  align-self: center;
 }
 
 .button-Contact:hover {
-
-  color: var(--secondary);
-  background-color: var(--primary);
+  color: var(--blue);
+  background-color: #fff;
   transition: 0.2s;
 }
 

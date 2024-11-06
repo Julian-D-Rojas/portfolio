@@ -3,8 +3,8 @@ export function CvIcon(props) {
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 24 24"
-			width="2rem"
-			height="2rem"
+			width="2.665rem"
+			height="2.665rem"
 			className="cv-icon"
 			{...props}
 		>

@@ -5,7 +5,7 @@ export const Contact = () => {
         <>
             <div id="contact" className="div-Contact--container">
                 <div id="contact" className="div-Contact">
-
+<h3 className="h3-Contact">Contacto</h3>
                     <form action="" className="form-Contact">
                         <input type="text" placeholder="Nombre" name="name"
                             title="Nombre sólo acepta letras, espacios en blanco y máximo 45 caracteres"

@@ -1,6 +1,6 @@
 :root {
   --primary:rgb(244, 240, 228);
-  --secondary:rgba(30, 30, 30);
+  --secondary:#2C3E50;
   --green:#6BBF59;
   --blue:#4A90E2;
   }
@@ -29,10 +29,12 @@ width: 4rem;
 height: 4rem;
 transition: all 0.3s;
 }
-.Porfile-div-icon:hover{
+.div-Porfile-infoButton .Porfile-div-icon:hover{
   color: var(--secondary);
 }
-
+.Porfile-div-icon:hover{
+  color: rgba(244, 240, 228, 0.491);
+}
 .div-Porfile--container {
   
   background-image: linear-gradient(40deg, #4A90E2 49%, #6BBF59 100%);
@@ -59,6 +61,7 @@ transition: all 0.3s;
   font-size: 2rem;
   font-weight: 500;
   padding-left: 1.3rem;
+  color: var(--secondary);
 }
 .figure-Porfile {
   display: flex;
@@ -82,7 +85,7 @@ color:var(--green);
   color: var(--blue);
 }
 .blackColor{
-  color:rgba(30, 30, 30);
+  color:var(--secondary);
 }
 .greenColorBackgorund{
   background-color:var(--green) ;
@@ -115,7 +118,7 @@ color:var(--green);
   justify-content: left;
   
   padding: 1rem 2rem 1rem 2rem;
-background-color: rgba(244, 240, 228, 0.627);
+background-color: rgba(255, 255, 255, 0.627);
 backdrop-filter: blur(8px);
 z-index: 3;
 }
