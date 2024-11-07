@@ -18,6 +18,11 @@
   color: var(--primary);
 
 }
+.img-Porfile--h2{
+  width: 3rem;
+  position: relative;
+  top: 0.8rem;
+}
 .a-Porfile--social{
 display: flex;
 align-items: center;
@@ -57,7 +62,7 @@ transition: all 0.3s;
   padding: 1rem;
 }
 .h2-Porfile {
-  font-family: Caveat;
+  font-family: Poppins-ExtraBold;
   font-size: 2rem;
   font-weight: 500;
   padding-left: 1.3rem;
@@ -117,7 +122,7 @@ color:var(--green);
   display: flex;
   justify-content: left;
   
-  padding: 1rem 2rem 1rem 2rem;
+  padding: .2rem 2rem 1rem 2rem;
 background-color: rgba(255, 255, 255, 0.627);
 backdrop-filter: blur(8px);
 z-index: 3;

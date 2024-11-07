@@ -1,0 +1,15 @@
+:root {
+    --primary: rgb(244, 240, 228);
+    --secondary: #4f6b8c;
+    --green: #6bbf59;
+    --blue: #4a90e2;
+  }
+
+.div-Footer-container{
+background-color: var(--secondary);
+padding: 1rem;
+}
+.p-Footer--copyright{
+    color: var(--primary);
+    text-align: center;
+}

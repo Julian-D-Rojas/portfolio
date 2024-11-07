@@ -3,6 +3,7 @@ import { ProyectIcon } from './icons/ProyectIcon'
 import { ContactIcon } from './icons/ContactIcon'
 import { GithubIcon } from './icons/GithubIcon'
 import{LinkedinIcon} from './icons/LinkedinIcon'
+import j from '../assets/img/J.png'
 import { useMenuContext } from '../hooks/useMenuContext'
 import { CvIcon } from './icons/CvIcon'
 import { FormIcon } from './icons/FormIcon'
@@ -21,7 +22,7 @@ export const NavMenu = () => {
 
         <div className="Nav-div--h1">
             <a href="#top" onClick={handleMenu} className="Nav-a a">
-      <h1 className='h1'>Julian Rojas</h1>
+      <h1 className='h1'><img src={j} className='img-Porfile--h2' alt="Julian Rojas" />ulian<span className='teko'>Rojas</span></h1>
             </a>
 
         </div>

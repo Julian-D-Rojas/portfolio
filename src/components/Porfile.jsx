@@ -1,5 +1,6 @@
 import './Porfile.css'
 import julianImage from '../assets/img/JulianRw.png'
+import j from '../assets/img/J.png'
 import { ContactIcon } from './icons/ContactIcon'
 import {CvIcon} from './icons/CvIcon'
 import { LinkedinIcon } from './icons/LinkedinIcon'
@@ -10,7 +11,7 @@ export const Porfile = () => {
         <>
             <div className="div-Porfile--name">
                 <a href="#top" >
-                <h2 className="h2-Porfile">Julian Rojas</h2> </a>
+                <h1 className='h2-Porfile'><img src={j} className='img-Porfile--h2' alt="Julian Rojas" />ulian<span className='teko'>Rojas</span></h1> </a>
                 </div>
             <div className="div-Porfile--container">
                 <div className="div-Porfile--coverImage">
