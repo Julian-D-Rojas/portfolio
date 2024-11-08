@@ -25,8 +25,8 @@ export const Porfile = () => {
                 <p className="p-Porfile">Ingeniero en Telecomunicaciones con experiencia en diseño web responsivo (HTML, CSS, SASS, JavaScript, ReactDOM), manejo de APIs REST, Java, bases de datos SQL y control de versiones (GIT/GitHub). Destaco por la creatividad, proactividad y capacidad de análisis. Hábil en la comunicación y trabajo en equipo, con un enfoque en la resiliencia y el respeto.</p>
     
 <div className="div-Porfile-infoButton">
-<a rel="noopener noreferer" href="#" target="_blank" className="a-Porfile--social" title="CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
-          <a rel="noopener noreferer" href="mailto:julian.d.rojas16@gmail.com" target="_blank" className=" a-Porfile--social" title="Contacto"><div className="Porfile-div-icon"><ContactIcon   /></div></a>
+<a rel="noopener noreferer" href="#" target="_blank" className="a-Porfile--social" title="JULIAN ROJAS CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
+          <a rel="noopener noreferer" href="mailto:julian.d.rojas16@gmail.com" target="_blank" className=" a-Porfile--social" title="Julian.d.rojas16@gmail.com"><div className="Porfile-div-icon"><ContactIcon   /></div></a>
           <a rel="noopener noreferer" href="https://www.linkedin.com/in/julian-david-rojas-gutierrez-b88160235/" target="_blank" className=" a-Porfile--social" title="Linkedin"> <div className="Porfile-div-icon"><LinkedinIcon/></div></a>
           <a rel="noopener noreferer" href="https://github.com/Julian-D-Rojas/" target="_blank" className="a-Porfile--social"><div className="Porfile-div-icon" title="Github"><GithubIcon /></div></a>
          

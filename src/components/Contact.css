@@ -67,7 +67,7 @@ input {
 
   font-size: 1.05rem;
   font-family: Poppins-SemiBold;
-  padding: 1rem 2rem;
+  padding: .5rem 1rem;
   border-radius: 2rem;
   transition: 0.2s;
   border: 0.125rem solid var(--blue);

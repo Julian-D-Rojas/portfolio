@@ -1,4 +1,43 @@
+:root {
+    --primary: rgb(244, 240, 228);
+    --secondary: #4f6b8c;
+    --green: #6bbf59;
+    --blue: #4a90e2;
+    --background2: #f6f5fb;
+  }
+
 .div-Proyects--container{
     padding: 2rem;
-    background-color: #f6f5fb;
+    background-color: var(--background2);
+  
+    
+}
+
+.div-Proyects--window{
+    background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0px 10px 50px 0px rgba(19, 31, 111, 0.1);
+  
+}
+
+.div-Proyects--windowBar{
+background-color: var(--background2);
+border-radius: 1rem 1rem 0 0;
+border-bottom: solid #DFE2EC;
+}
+
+.img-Proyects{
+    padding: .75rem 0 .44rem .7rem;
+}
+.div-Proyects-container
+{
+    padding: 1.25rem 2.8rem 2.8rem 2.8rem;
+}
+.h3-Proyects
+{font-size: 1.7rem;
+    justify-self: center;
+    padding: 1rem 0.7rem;
+    font-weight: 300;
+    font-family: Poppins-SemiBold;
+    color: var(--secondary);
 }

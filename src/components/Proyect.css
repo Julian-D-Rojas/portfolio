@@ -1,0 +1,96 @@
+:root {
+    --primary: rgb(244, 240, 228);
+    --secondary: #4f6b8c;
+    --green: #6bbf59;
+    --blue: #4a90e2;
+    --background2: #f6f5fb;
+    --brown:#2D2D2B;
+  }
+
+.div-Proyect--buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    
+    justify-content: center;
+}
+
+.button-Proyect--first{
+    background-color: var(--green);
+    color: #fff;
+    font-size: 1.05rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    transition: 0.2s;
+    border: 0.125rem solid var(--green);
+    cursor: pointer;
+    margin: 0.3rem;
+    width: fit-content;
+    align-self: center;
+}
+
+.button-Proyect--second{
+    background-color: #fff;
+    color: var(--green);
+    font-size: 1.05rem;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    transition: 0.2s;
+    border: 0.125rem solid var(--green);
+    cursor: pointer;
+    margin: 0.3rem;
+    width: fit-content;
+    align-self: center;
+}
+.div-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .3rem;
+}
+.div-Proyect--technologies{
+    display: flex;
+    align-items: center;
+   
+    flex-wrap: wrap;
+    gap: .3rem;
+    padding-top: 1rem ;
+}
+.div-Proyect--info{
+    background-color: var(--background2);
+    border-radius: 0 0 1rem 1rem;
+    padding: 1rem;
+    border: solid #DFE2EC 1px;
+}
+.h3-Proyect--info{
+padding-bottom: 1rem;
+font-size: .9rem;
+color: var(--brown);
+font-family: 'Poppins-SemiBold';
+}
+.p-Proyect{
+    font-size: .875rem;
+    line-height: 1;
+    color: var(--brown);
+}
+
+.img-Proyect{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0 ;
+}
+.div-Proyect--imgContainer
+{
+    border-radius: 1rem 1rem 0 0 ;
+    background-image: linear-gradient(40deg, #4A90E2 49%, #6BBF59 100%)
+}
+.h2-Proyect--title
+{    position: relative;
+    top: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
