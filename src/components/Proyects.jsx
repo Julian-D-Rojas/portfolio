@@ -9,7 +9,7 @@ export const Proyects = () => {
         <div className="div-Proyects--windowBar">
 <img src={iconWindowBar} className="img-Proyects" />
         </div>
-        <div className="div-Proyects-container">
+        <div className="div-Proyects--content">
 
         <h3 className='h3-Proyects'>Proyectos</h3>
         <div className="div-Proyects--grid">

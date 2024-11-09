@@ -9,10 +9,8 @@
 
 .div-Proyect--buttons{
     display: flex;
-    flex-wrap: wrap;
-    gap: .5rem;
-    
     justify-content: center;
+    padding: .5rem 0;
 }
 
 .button-Proyect--first{
@@ -84,13 +82,5 @@ font-family: 'Poppins-SemiBold';
 .div-Proyect--imgContainer
 {
     border-radius: 1rem 1rem 0 0 ;
-    background-image: linear-gradient(40deg, #4A90E2 49%, #6BBF59 100%)
-}
-.h2-Proyect--title
-{    position: relative;
-    top: 2rem;
-    text-align: center;
-    padding: 0 1rem;
-    color: #fff;
-    font-size: 1.2rem;
+    background-image: radial-gradient(transparent, #4f6b8c);
 }

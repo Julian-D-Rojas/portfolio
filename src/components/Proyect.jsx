@@ -7,7 +7,6 @@ export const Proyect = () => {
     <>
    <div className="div-Proyect--container">
     <div className="div-Proyect--imgContainer">
-        <h2 className="h2-Proyect--title">Jardín Infantil Barquito de Papel</h2>
         <img src={jardinBarquito} alt="" className="img-Proyect" />
     </div>
     <div className="div-Proyect--info">
