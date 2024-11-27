@@ -15,6 +15,8 @@ export const Proyects = () => {
         <div className="div-Proyects--grid">
 
 <Proyect></Proyect>
+<Proyect></Proyect>
+
         </div>
         </div>
       </div>

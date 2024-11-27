@@ -51,6 +51,7 @@ transition: all 0.3s;
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  max-width:72.25rem ;
 }
 .div-Porfile-infoButton{
   display: flex;
@@ -60,6 +61,7 @@ transition: all 0.3s;
   background-image: url(../assets/img/backgroundPorfile.png);
   background-position: center;
   padding: 1rem;
+  justify-items: center;
 }
 .h2-Porfile {
   font-family: Poppins-ExtraBold;
@@ -130,7 +132,7 @@ z-index: 3;
 
 .p-Porfile {
   line-height: 1.6;
-  margin: 1rem 0 1rem 0;
+  margin-bottom: 1rem ;
   text-align: center;
   color: var(--primary);
 }
@@ -157,4 +159,23 @@ transition: 0.2s;
   list-style: inside;
   padding-bottom: 1rem;
   max-width: 31rem;
+}
+@media (min-width: 766px) {
+  .div-Porfile--coverImage{
+    padding: 2rem;
+  }
+  .div-Porfile--info{
+    flex-direction: row;
+    align-items: flex-start;
+  padding: 0;
+  max-width: 50rem;
+  gap: 1rem;
+
+  }
+  .h3-Porfile{
+text-align: start;
+  }
+  .p-Porfile{
+    text-align: start;
+  }
 }
