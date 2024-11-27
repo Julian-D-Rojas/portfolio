@@ -46,6 +46,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: .3rem;
+    font-size: 0.875rem;
 }
 .div-Proyect--technologies{
     display: flex;
