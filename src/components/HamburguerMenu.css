@@ -81,3 +81,8 @@ circle {
     --total-length: 70;
   }
 }
+@media (min-width: 766px) {
+  .menu{
+    display: none;
+  }
+}

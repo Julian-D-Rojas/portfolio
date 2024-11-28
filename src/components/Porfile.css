@@ -125,7 +125,10 @@ background-color: rgba(255, 255, 255, 0.627);
 backdrop-filter: blur(8px);
 z-index: 3;
 }
+.div-Porfile--menuContainer{
+  display: none;
 
+}
 .p-Porfile {
   line-height: 1.6;
   margin-bottom: 1rem ;
@@ -177,4 +180,32 @@ text-align: start;
   .div-Porfile-infoButton{
 justify-content: flex-start;
   }
+  .div-Porfile--menuContainer{
+    display: flex;
+   align-items: flex-end;
+  }
+  .div-Porfile--name{
+    display: block;
+    text-align: -webkit-center;
+}
+.Porfile-ul{
+  display: flex;
+  gap: 2rem;
+}
+.Porfile-a{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color:var(--secondary);
+  font-weight: 600;
+}
+.div-Porfile--nameContainer{
+  display: flex;
+
+justify-content: space-between;
+max-width: 63rem;
+}
+.h2-Porfile {
+  padding: 0;
+}
 }
