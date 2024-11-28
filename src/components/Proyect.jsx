@@ -13,7 +13,7 @@ export const Proyect = () => {
     </div>
     <div className="div-Proyect--info">
         <h3 className='h3-Proyect--info'>Jardín Infantil Barquito de Papel</h3>
-        <p className='p-Proyect'>El sitio web de Jardín Barquito de Papel está desarrollado con vanilla JavaScript y Sass para lograr una navegación rápida y funcionalidad fluida sin frameworks externos, dicho sitio ofrece un diseño colorido que evoca un ambiente amigable y acogedor.</p>
+        <p className='p-Proyect'>El sitio web de Jardín Barquito de Papel está desarrollado con vanilla JavaScript y Sass para lograr una navegación rápida y funcionalidad fluida sin frameworks externos.</p>
         <div className="div-Proyect--technologies">
             <JavascriptIcon/>
             <SassIcon/>

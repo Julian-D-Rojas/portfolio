@@ -49,7 +49,7 @@ border-bottom: solid #DFE2EC;
 @media (min-width: 766px) {
 
     .div-Proyects--grid{
-        gap:2rem;
+        gap:1.5rem;
         grid-template-columns: repeat(2, 1fr);
     }
     .div-Proyects--window{
@@ -57,7 +57,7 @@ border-bottom: solid #DFE2EC;
     }
     .div-Proyects--content
     {
-        padding: 1.25rem 2rem 2rem 2rem;
+        padding: 1.25rem 1.5rem 1.5rem;
     }
  
 

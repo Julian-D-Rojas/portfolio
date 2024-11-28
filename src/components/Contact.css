@@ -22,7 +22,6 @@
   text-align: center;
 }
 .div-Contact--flex{
-  max-width: 72.25rem;
   justify-content: space-evenly;
 }
 .h3-Contact {
@@ -118,9 +117,9 @@ input {
 
   .div-Contact--flex{
     display: flex;
-    max-width: 72.25rem;
+    max-width: 50rem;
     flex-direction: row;
-    gap:1rem;
+    gap:2rem;
     align-items: center;
 }
 .div-Contact--icon{
