@@ -12,9 +12,7 @@
   transform-origin: center;
 }
 .Porfile-div-icon {
-  width: 4rem;
   display: flex;
-  justify-content: center;
   color: var(--primary);
 
 }
@@ -27,11 +25,7 @@
 display: flex;
 align-items: center;
 cursor: pointer;
-max-width: 100%;
-max-height: 100%;
 padding: 0;
-width: 4rem;
-height: 4rem;
 transition: all 0.3s;
 }
 .div-Porfile-infoButton .Porfile-div-icon:hover{
@@ -56,6 +50,8 @@ transition: all 0.3s;
 .div-Porfile-infoButton{
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap:1rem;
 }
 .div-Porfile--coverImage{
   background-image: url(../assets/img/backgroundPorfile.png);
@@ -176,6 +172,9 @@ transition: 0.2s;
 text-align: start;
   }
   .p-Porfile{
-    text-align: start;
+    text-align: justify;
+  }
+  .div-Porfile-infoButton{
+justify-content: flex-start;
   }
 }
