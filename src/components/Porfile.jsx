@@ -5,7 +5,7 @@ import { ContactIcon } from './icons/ContactIcon'
 import { CvIcon } from './icons/CvIcon'
 import { LinkedinIcon } from './icons/LinkedinIcon'
 import { GithubIcon } from './icons/GithubIcon'
-
+import pdfFile from "../assets/documents/HV-Julian-Rojas.pdf"
 import { ProyectIcon } from './icons/ProyectIcon'
 import { FormIcon } from './icons/FormIcon'
 
@@ -49,7 +49,7 @@ export const Porfile = () => {
 
 
                             <div className="div-Porfile-infoButton">
-                                <a rel="noopener noreferer" href="/documents/HV Julian Rojas.pdf" target="_blank" className="a-Porfile--social" title="JULIAN ROJAS CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
+                                <a rel="noopener noreferer" href={pdfFile} target="_blank" className="a-Porfile--social" title="JULIAN ROJAS CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
                                 <a rel="noopener noreferer" href="mailto:julian.d.rojas16@gmail.com" target="_blank" className=" a-Porfile--social" title="Julian.d.rojas16@gmail.com"><div className="Porfile-div-icon"><ContactIcon /></div></a>
                                 <a rel="noopener noreferer" href="https://www.linkedin.com/in/julian-david-rojas-gutierrez-b88160235/" target="_blank" className=" a-Porfile--social" title="Linkedin"> <div className="Porfile-div-icon"><LinkedinIcon /></div></a>
                                 <a rel="noopener noreferer" href="https://github.com/Julian-D-Rojas/" target="_blank" className="a-Porfile--social"><div className="Porfile-div-icon" title="Github"><GithubIcon /></div></a>

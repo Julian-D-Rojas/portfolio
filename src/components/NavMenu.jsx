@@ -7,7 +7,7 @@ import j from '../assets/img/J.png'
 import { useMenuContext } from '../hooks/useMenuContext'
 import { CvIcon } from './icons/CvIcon'
 import { FormIcon } from './icons/FormIcon'
-
+import pdfFile from "../assets/documents/HV-Julian-Rojas.pdf"
 
 export const NavMenu = () => {
   let proyects = 'Proyectos'
@@ -35,7 +35,7 @@ export const NavMenu = () => {
               <a href="#contact" onClick={handleMenu} className="Nav-a a"><div className="Nav-div-icon"><FormIcon /></div>{contact}</a></li>
           </ul>
           <div className="Nav-div--social">
-            <a onClick={handleMenu} rel="noopener noreferer" href="/documents/HV Julian Rojas.pdf" target="_blank" className="a-Porfile--social" title="JULIAN ROJAS CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
+            <a onClick={handleMenu} rel="noopener noreferer" href={pdfFile} target="_blank" className="a-Porfile--social" title="JULIAN ROJAS CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
             <a onClick={handleMenu} rel="noopener noreferer" href="mailto:julian.d.rojas16@gmail.com" target="_blank" className=" a-Porfile--social" title="Julian.d.rojas16@gmail.com"><div className="Porfile-div-icon"><ContactIcon /></div></a>
             <a onClick={handleMenu} rel="noopener noreferer" href="https://www.linkedin.com/in/julian-david-rojas-gutierrez-b88160235/" target="_blank" className=" a-Porfile--social" title="Linkedin"> <div className="Porfile-div-icon"><LinkedinIcon /></div></a>
             <a onClick={handleMenu} rel="noopener noreferer" href="https://github.com/Julian-D-Rojas/" target="_blank" className="a-Porfile--social"><div className="Porfile-div-icon" title="Github"><GithubIcon /></div></a>
