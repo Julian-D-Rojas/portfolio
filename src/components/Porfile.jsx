@@ -46,8 +46,6 @@ export const Porfile = () => {
                             <p className="p-Porfile">
                                 Ingeniero en Telecomunicaciones con experiencia en diseño web responsivo, APIs REST, Java, SQL y GIT. Creativo, proactivo, analítico, con habilidades en comunicación, trabajo en equipo, resiliencia y respeto.</p>
 
-
-
                             <div className="div-Porfile-infoButton">
                                 <a rel="noopener noreferer" href={pdfFile} target="_blank" className="a-Porfile--social" title="JULIAN ROJAS CV"><div className="Porfile-div-icon"><CvIcon /></div></a>
                                 <a rel="noopener noreferer" href="mailto:julian.d.rojas16@gmail.com" target="_blank" className=" a-Porfile--social" title="Julian.d.rojas16@gmail.com"><div className="Porfile-div-icon"><ContactIcon /></div></a>
