@@ -26,7 +26,7 @@ export const Proyect2 = () => {
           </div>
           <div className='div-Proyect--buttons'>
             <a
-              href='https://github.com/Julian-D-Rojas/DTTManagerFrontend'
+              href='https://dtt-manager-frontend.vercel.app/'
               target='_blank'
               rel='noopener noreferrer'
             >
