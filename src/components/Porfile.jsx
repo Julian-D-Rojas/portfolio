@@ -57,12 +57,12 @@ export const Porfile = () => {
             </figure>
             <div className='div-Porfile--flex'>
               <h3 className='h3-Porfile'>
-                Desarrollador <span>Web</span>{' '}
-                <span className='blackColor'>Frontend</span>{' '}
+                Desarrollador <span></span>{' '}
+                <span className='blackColor'>Web</span>{' '}
               </h3>
               <p className='p-Porfile'>
                 Ingeniero en Telecomunicaciones con experiencia en diseño web
-                responsivo, APIs REST, Python, SQL y GIT. Creativo, proactivo,
+                responsivo, APIs REST, Java, SQL y GIT. Creativo, proactivo,
                 analítico, con habilidades en comunicación, trabajo en equipo,
                 resiliencia y respeto.
               </p>
